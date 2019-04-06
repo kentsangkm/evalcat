@@ -16,7 +16,7 @@ file: example.sh
 #HOTKEY2=#EVAL ls %1%
 #EOF
 
-./evalcat "#EVAL $0" | ./other_program
+./evalcat "#EVAL cat $0" | ./other_program
 ```
 
 
