@@ -7,16 +7,18 @@ g++ -std=c++17 evalcat.cpp -o evalcat
 # example
 
 file: example.sh
+```
 #!/bin/bash
 #HOTKEY1=text1
 #HOTKEY2=#EVAL ls %1%
 #EOF
 
 ./evalcat "#EVAL $0" | ./other_program
-
+```
 
 
 at console:
+```
 > ./example.sh
 > hello
 < other_program received from cin: hello
@@ -28,3 +30,4 @@ at console:
 > #ABC
 < The macro ABC is not defined
 > #EXIT
+```
