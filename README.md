@@ -4,6 +4,9 @@ Allow you pipe in from stdin "and then" read from keyboard. A simple script engi
 # compilation
 g++ -std=c++17 evalcat.cpp -o evalcat
 
+# arguments
+`-h, --help`    Shows help
+
 # example
 
 file: example.sh
